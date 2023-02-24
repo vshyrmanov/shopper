@@ -39,7 +39,7 @@ const HeaderLayout = () => {
     return (
         <Header>
             <div>
-                <img src={MainBG} width={400} height={300} alt="main_bg" />
+                <img src={MainBG} width={600} height={400} alt="main_bg" />
             </div>
             {listName && <StyledBackward>
                 <h1 className={anim.fadeIn}>
