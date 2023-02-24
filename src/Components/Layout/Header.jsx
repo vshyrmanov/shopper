@@ -9,7 +9,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { ApiHelper } from "../../service/api";
 import HeaderMenu from "./HeaderMenu";
 import {headerHelper} from "./helper";
-import MainBG from '../../assets/main_bg.jpg';
+import MainBG from '../../assets/main_bg.webp';
 
 const HeaderLayout = () => {
     const [userName, setUserName] = useState({firstName: "", lastName: ""});

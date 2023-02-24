@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { GuestLink, Main } from "./Styled";
 import { ApiHelper } from "../../service/api";
 import {useDispatch} from "react-redux";
-import login_bg from "../../assets/login_bg.jpg";
+import login_bg from "../../assets/login_bg.webp";
 import BgLoader from "../Loader/BGLoader";
 import { useNavigate } from "react-router-dom";
 import {loginHelper} from "./helper";

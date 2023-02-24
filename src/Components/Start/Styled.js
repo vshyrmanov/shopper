@@ -9,32 +9,39 @@ export const StyledStartPage = styled('div')`
   bottom: 0;
   width: 100%;
   height: 100%;
-  background-image: ${({bg}) => `url(${bg})`};
+    //background-image: ${({bg}) => `url(${bg})`};
   z-index: 12;
+  background: #e5b2b8;
+
   img {
     width: 70px;
     height: 70px;
   }
+
   .img_1 {
     position: absolute;
     top: 50%;
     right: 45%;
   }
+
   .img_2 {
     position: absolute;
     top: 35%;
     right: 40%;
   }
+
   .img_3 {
     position: absolute;
     top: 22%;
     right: 25%;
   }
+
   .img_4 {
     position: absolute;
     top: 12%;
     right: 5%;
   }
+
   .img_btm {
     position: absolute;
     bottom: -20px;
